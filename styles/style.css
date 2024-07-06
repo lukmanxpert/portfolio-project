@@ -28,6 +28,13 @@
 
 /* shared classed closed */
 
+/* header start */
+.header{
+    background: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* header end */
 
 /* navigation styles start */
 nav {
@@ -56,3 +63,39 @@ nav ul li a {
     text-decoration: none;
     font-size: 20px;
 }
+
+
+/* banner section start */
+.banner{
+    display: flex;
+    justify-content: center;
+    margin: 0 38px 0 200px;
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner h4{
+    color: #474747;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0;
+}
+.banner h2{
+    font-weight: bold;
+    font-size: 60px;
+    color: #474747;
+    margin: 0;
+}
+.banner p{
+    color: #474747;
+    font-size: 18px;
+}
+.banner-image{
+    width: 584px;
+}
+.contact-btn{
+    background-color: white;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+/* banner section end */

@@ -181,3 +181,39 @@ main{
     padding: 20px;
 }
 /* skill container end */
+
+/* resume section start */
+
+.resume-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.resume-header{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.resume-section{
+    padding: 30px;
+}
+.resume-title{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.resume-sub-title{
+    padding-bottom: 20px;
+}
+.resume-event-date{
+    padding-bottom: 20px;
+    color: #757575;
+}
+.resume-desc{
+    color: #757575;
+}
+.resume-container hr{
+    margin: 20px 0;
+}
+/* resume section end */

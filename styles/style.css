@@ -5,7 +5,11 @@
     font-variation-settings:
         "wdth" 100;
 }
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 /* shared classed */
 .primary-color {
     color: #FD6E0A;
@@ -102,7 +106,7 @@ nav ul li a {
 /* banner section end */
 /* main styles */
 main{
-    max-width: 800px;
+    max-width: 1100px;
     margin: 0 auto;
     text-align: center;
 }
@@ -116,6 +120,8 @@ main{
 .about-head{
     font-size: 25px;
     font-weight: bold;
+    margin-bottom: 20px;
+    
 }
 .about-me div > p{
     font-size: 10;
@@ -124,6 +130,7 @@ main{
 .about-me-footer{
     display: flex;
     justify-content: space-around;
+    padding-top: 30px;
 }
 .about-me-footer > div > h5 {
     color: #757575;
@@ -132,3 +139,44 @@ main{
     font-weight: bold;
 }
 /* about me end */
+
+/* skill container start */
+
+.skill-head h5{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 30px 20px;
+}
+.skill-head p{
+    font-size: 10;
+    color: #757575;
+    padding: 0px 20px 50px;
+}
+
+.skills{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.skill{
+    width: 25%;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    margin: 20px;
+}
+.skill img{
+    padding: 20px;
+}
+.skill .skill-head{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px;
+    
+}
+.skill .skill-desc{
+    padding: 20px;
+}
+/* skill container end */

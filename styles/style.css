@@ -216,4 +216,51 @@ main{
 .resume-container hr{
     margin: 20px 0;
 }
+.download-cv-button{
+    margin: 10px 0 70px 0;
+}
 /* resume section end */
+
+/* footer start */
+footer{
+    padding: 40px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-head{
+    font-weight: bold;
+    font-size: 35px;
+}
+.footer-section{
+    width: 50%;
+    padding: 100px 50px;
+}
+.footer input{
+    display: block;
+    padding: 30px 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+    width: 100%;
+    font-size: 20px;
+}
+.footer input[type= "submit"]{
+    background-color: #FD6E0A;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.footer-desc{
+    color: #757575;
+    padding: 10px 0;
+}
+.social-icons{
+    padding: 20px 0 0 0;
+}
+.social-icons img{
+    margin-right: 20px;
+}
+/* footer end */

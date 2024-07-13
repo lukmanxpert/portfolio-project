@@ -263,4 +263,83 @@ footer{
 .social-icons img{
     margin-right: 20px;
 }
+textarea{
+    padding: 10px 20px;
+}
 /* footer end */
+
+
+
+
+
+
+
+
+/* responsive part start */
+
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .bg-color{
+        padding: 0;
+    }
+    .footer, .resume-container, .skills, ul{
+        flex-direction: column;
+    }
+    .footer-section, .skill{
+        width: 100%;
+        padding: 20px;
+    }
+    .skill{
+        margin: 0;
+    }
+    .skill-head h5{
+        padding: 10px;
+    }
+    .skill-head p{
+        padding: 10 20px;
+        text-align: left;
+    }
+    .about-me p{
+        text-align: left;
+        padding: 0 20px 10px;
+    }
+    .about-me h5{
+        margin: 0;
+        padding: 10px;
+    }
+    .about-me-footer{
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .about-me-footer > div{
+        margin-bottom: 20px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-image{
+        width: 100%;
+        display: flex;
+        justify-content: right;
+    }
+    .banner-image img{
+        height: 300px;
+    }
+    .header{
+        max-width: 100%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .banner{
+        margin: 0;
+    }
+    .banner-content{
+        max-width: 100%;
+    }
+}
+/* responsive part end */
